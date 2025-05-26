@@ -9,7 +9,7 @@ body {
 
 header {
   background: #333;
-  color: #f6ebeb;
+  color: rgb(212, 255, 255);
   margin: -18px;
   padding: 10px 0px;
   text-align: center;
@@ -33,7 +33,7 @@ nav ul {
 }
 
 nav a {
-  color: #fff;
+  color: rgb(212, 255, 255);
   text-decoration: none;
   font-size: 20px;
 
@@ -42,10 +42,12 @@ nav a {
 section {
   margin: 40px 0;
   padding: 20px;
-  background: #fff;
+  background: #333;
   border-radius: 8px;
   transition: all 0.3s ease;
-    
+}
+section p,h2,h3,li{
+  color: rgb(212, 255, 255);
 }
 section:hover{
     transform: scale(1.02);
@@ -62,4 +64,7 @@ footer {
 header:hover{
     transform: scale(1.05); /* Expande 5% */
   z-index: 10;
+}
+#projetos a{
+  color: rgb(110, 249, 249);
 }
